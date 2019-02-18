@@ -1,14 +1,10 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
-    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
+    name: Calvin Banning
+    tagline: Software Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -24,165 +20,132 @@ sidebar:
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
-    interests:
-      - item: Climbing
-        link:
+    # interests:
+    #   - item: Woodworking 
+    #     link:
 
-      - item: Snowboarding
-        link:
+    #   - item: Amateur Video Game Development
+    #     link:
 
-      - item: Cooking
-        link:
+    #   - item: Reading Greek &amp; Roman Classics
+    #     link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-
-      Second paragraph if required.
+      I am a Junior at the University of Delaware working towards a B.S. in
+      Computer Science, with a concentration in Internet Applications. I have
+      strong enthusiasm &amp; experience with software development, data analytics &amp;
+      visualization, and agile-based project development. I consider my
+      strongest skills to be my adaptability, internal drive, and affinity for
+      rapid skill development.
 
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: BSc in Computer Science
+      minor: Minor in Cybersecurity
+      university: University of Delaware
+      time: 2016 - 2020
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
-          - Bullet point
-          - Bullet point
-
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-
+        Describe your study here
           - Bullet point
           - Bullet point
 
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Software Developer
+      time: September 2017 - Present
+      company: Spin-In, Newark
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        A work-study program which brings together an interdisciplinary group of students
+        to develop a local entreprenuer's vision for a new product or business venture.
+          - Facilitated team's understanding of complex technical concepts during involved
+            weekly meetings, in order to ensure complete coordination and awareness of activities
+            and goals within the team.
+          - Excelled in demonstrating initiative by tackling new and difficult problems with confidence
+            outside of current skill set.
+          - Actively involved in contributing alternative perspectives to business and design discussions,
+            resulting in thorough vetting of new ideas to ensure viability and completeness.
 
-          - Bullet point
-          - Bullet point
-
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Full-Stack Software Development Intern
+      time: June 2018 - August 2018
+      company: Cyber 20/20, Newark
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+        A startup driven by cutting edge malware analysis research, which aimed to produce a disruptive
+        and innovative SaaS for automated threat hunting.
+          - Collaborated in an Agile development team to create a product MVP for early pilot programs.
+          - Attended the 2018 Black Hat Cybersecurity Conference in Las Vegas to present the prototype to
+            potential investors and experienced security professionals.
+          - Redesigned and implemented company website, resulting in a significant increase in traffic,
+            and a 26% average bounce rate in the following months.
 
-          - Bullet point
-          - Bullet point
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
 
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
+#     assignments:
+#       - title: Velocity
+#         link: "#hook"
+#         tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-          - Bullet point
-          - Bullet point
+#       - title: DevStudio
+#         link: "#"
+#         tagline: "A responsive website template designed to help web developers/designers market their services."
 
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#       - title: Tempo
+#         link: "#"
+#         tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+#       - title: Atom
+#         link: "#"
+#         tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+#       - title: Delta
+#         link: "#"
+#         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+# publications:
+#     title: Publications
+#     intro: |
+#       You can list your publications in this section. Lorem ipsum dolor sit
+#       amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#       bibendum fringilla a eu lectus.
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#     papers:
+#       - title: The Art of Computer Programming
+#         authors: Donald E. Knuth
+#         conference: Addison-Wesley, 1968
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#       - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#         authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#         conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-
-    papers:
-      - title: The Art of Computer Programming
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+#       - title: A syntax directed compiler for Algol 60
+#         authors: Edgar T. Irons
+#         conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
+      - name: JavaScript
+        level: 96%
 
       - name: HTML5 & CSS
-        level: 95%
+        level: 94%
 
-      - name: Ruby on Rails
+      - name: React &amp; Redux
+        level: 90%
+
+      - name: Python
+        level: 88%
+
+      - name: C &amp; C++
+        level: 86%
+
+      - name: Java
         level: 85%
 
-      - name: Sketch & Photoshop
-        level: 60%
+
 
