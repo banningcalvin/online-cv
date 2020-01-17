@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.page {
+    color: blue;
+    position: absolute;
+    top: 80px;
+    left: 10px;
+    display: block;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+nav {
+    background-color: #fff;
+}
+
+nav * {
+    display: inline-block;
+}
+
+button {
+    border: none;
+    background: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+}
+
+button:focus {
+    outline:0;
+}
+
+#logo {
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#buttonA {
+    font-weight: bold;
+    color: #000;
+}
+
+#buttonB {
+    font-weight: normal;
+    color: #aaa;
+}
+
+#buttonC {
+    font-weight: normal;
+    color: #aaa;
+}
+
+button:hover {
+    font-weight: bold;
+}
