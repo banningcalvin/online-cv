@@ -38,7 +38,7 @@ button:focus {
 }
 
 #buttonA {
-    font-weight: bold;
+    font-weight: normal;
     color: #000;
 }
 
@@ -52,6 +52,6 @@ button:focus {
     color: #aaa;
 }
 
-button:hover {
+button:hover, #buttonA:hover, #buttonB:hover, #buttonC:hover {
     font-weight: bold;
 }
